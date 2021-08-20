@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    
+}
+.border-white{
+    border-bottom: 2px solid #fff;
+}
+
+.text-center{
+    text-align: center;
+}
+body{
+    background-color:teal;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    height: 100vh;
+}
+
+header ul{
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 1.5rem 2rem;
+}
+
+header a{
+    color: white;
+    width: 90%;
+    text-decoration: none;
+    padding:0.6rem;
+}
+.section{
+    margin: auto;
+    max-width: 50%;
+}
+.heading{
+    margin: 2rem;
+    font-size: xx-large;
+}
+
+.input-container{
+    margin: 1rem 0;
+}
+.input-container input{
+    width: 100%;
+    margin-top: 5px;
+    padding: 1rem;
+	border-radius: 0.25rem;
+    color: black;
+    border: none;
+}
+.btn{
+    padding: 0.5rem;
+	background: rebeccapurple;
+    border: none;
+	border-radius: 0.25rem;
+	width: 100%;
+    margin: 1rem 0;
+}
+
+.output{
+    font-size: 1.5rem;
+}
+/* Triangle quiz */
+.quiz-container{
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    border: 2px solid purple;
+    border-radius: 10px;
+    padding: 2rem 1rem;
+}
+/* Hypotenuse */
+.info{
+    border: 2px solid purple;
+    padding: 0.5rem;
+    width: 50%;
+    margin: auto;
+    font-size: 1.5rem;
+}
