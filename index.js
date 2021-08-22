@@ -6,11 +6,12 @@ isTriangleBtn.addEventListener("click", isTriangle);
 
 function isTriangle(){
 
-    if(calculateSumOfAngles()==180){
+    if( (angleInput[0].value<0) || (angleInput[1].value<0) ||(angleInput[2].value<0)){
+        outputTriangle.innerText = "Enter a positive Integer"
+    }else if(calculateSumOfAngles()==180){
         outputTriangle.innerText = "Yay!! It forms a Triangle"
     }else{
         outputTriangle.innerText = "oh no!,the angles do not form a Triangle"
-
     }
 }
 function calculateSumOfAngles(){
