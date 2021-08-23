@@ -76,6 +76,11 @@ header a{
     border-radius: 10px;
     padding: 2rem 1rem;
 }
+.option-container{
+    margin-top: 10px;
+    display: flex;
+}
+
 /* Hypotenuse */
 .info{
     border: 2px solid purple;
@@ -83,4 +88,12 @@ header a{
     width: 50%;
     margin: auto;
     font-size: 1.5rem;
+}
+
+/* Media queries */
+@media (max-width:570px){
+    /* Triangle quiz */
+    .quiz-container .option-container{
+        flex-direction: column;
+    }
 }
